@@ -1,0 +1,32 @@
+{
+  "keystone": {
+    "cookieSecret": "place-your-cookie-secret-here"
+  },
+  "storage": {
+    "files": "/home/files",
+    "url": "mongodb://localhost:27017/exchange-backend"
+  },
+  "cloudinary": {
+    "url": "place-your-cloudinary-url-here"
+  },
+  "self": {
+    "url": "http://localhost:3000"
+  },
+  "mail": {
+    "from": "place-your-from@address.here",
+    "baseURL": "http://localhost:3000",
+    "transport": {
+      "host": "smtp.mail.ru",
+      "port": 465,
+      "secure": true,
+      "auth": {
+        "user": "place-your-from@address.here",
+        "pass": "place-your-password-here"
+      }
+    }
+  },
+  "blockchain": {
+    "url": "wss://parity.tp.ntr1x.com:8546",
+    "faucet": "1111111111111111111111111111111111111111111111111111111111111111"
+  }
+}
